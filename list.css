@@ -45,7 +45,7 @@ header{
 #btn{
     background-color: blue;
     color: white;
-    padding: 5px 20px;
+    padding: 3px 10px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -123,4 +123,7 @@ td,th{
    .foodlist, .input-container, #input, #no-list img{
     width:300px;
   }
+    #btn{
+        padding:3px 10px;
+    }
 }
