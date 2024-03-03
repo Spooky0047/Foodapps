@@ -1,0 +1,130 @@
+*{
+    font-family:sans-serif;
+    text-align: center;
+    font-size: 16px;
+}
+body{
+    margin:0;
+    padding: auto;
+    background-color: rgb(194, 213, 227);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    position:sticky;
+    top:0;
+    background-color: blue;
+    width:100%;
+    text-align: center;
+    padding: 3px;
+    color:aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.input-container
+{
+    background-color:ghostwhite;
+    width: 500px;
+    margin:40px auto;
+    padding:30px;
+    display: flex;
+    gap: 15px;
+    border-radius: 6px;
+    box-shadow: 5px 5px 10px rgb(117, 111, 111);
+    
+}
+#input{
+    padding:10px;
+    width: 500px;
+    outline: none;
+    border-radius: 8px;
+    text-align: left;
+    border:1px solid ghostwhite;
+    background-color:#e5e4e0;
+}
+#btn{
+    background-color: blue;
+    color: white;
+    padding: 3px 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+section{
+    margin: 10px 0;
+    background-color: ghostwhite;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgb(117, 111, 111);
+}
+
+#no-list img{
+    width: 450px;
+    opacity: 0.5;
+}
+#status{
+    margin: 30px 0px 0px 10px;
+    text-align: left;
+    padding: 0px 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+ .foodlist{
+    background-color:ghostwhite;
+    width: 500px;
+    border-radius: 9px;
+    padding:10px 30px;
+    margin: 0;
+
+}
+.list-item{
+    list-style: none;
+    width: auto;
+    border:1px solid gray;
+    border-radius: 15px;
+    padding:15px 17px;
+    margin:16px 0px;
+    color: grey;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-item:hover{
+    background-color: blue;
+    color: white;
+}
+.fa-times{
+    cursor: pointer;
+}
+
+table {
+    margin:40px auto;
+    border: 1px solid black;
+    border-spacing: 0;
+    background-color: #fff;    
+}
+tr:first-child{
+    background-color: royalblue;
+    color: #fff;
+}
+td,th{
+    padding:6px 33px;
+    font-size: 16px;
+    border: 1px solid black;
+    font-family: sans-serif;
+}
+.action{
+    background-color: rgba(118, 167, 235, 0.841);
+}
