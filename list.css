@@ -16,18 +16,8 @@ header{
     position:sticky;
     top:0;
     background-color: blue;
-    width:120%;
-    text-align: center;
-    padding: 3px;
-    color:aliceblue;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-header h1{
-    margin-left: 20px;
-    margin-right: 10px;
+    width:100%;
+    color: white;
 }
 
 .input-container
