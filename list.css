@@ -23,7 +23,7 @@ header{
 .input-container
 {
     background-color:ghostwhite;
-    width: 500px;
+    width: 300px;
     margin:40px auto;
     padding:30px;
     display: flex;
@@ -72,10 +72,10 @@ section{
 
  .foodlist{
     background-color:ghostwhite;
-    width: 500px;
+    width: 300px;
     border-radius: 9px;
     padding:10px 30px;
-    margin: 0;
+    margin:40px auto;
 
 }
 .list-item{
