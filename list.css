@@ -24,7 +24,7 @@ header{
 .input-container
 {
     background-color:ghostwhite;
-    width: 400px;
+    width: 300px;
     margin:40px auto;
     padding:30px;
     display: flex;
@@ -35,7 +35,7 @@ header{
 }
 #input{
     padding:10px;
-    width: 400px;
+    width: 300px;
     outline: none;
     border-radius: 8px;
     text-align: left;
